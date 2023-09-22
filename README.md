@@ -1,4 +1,4 @@
 # SacNepalCommunity
-Sacramento Nepali Community website
+Sacramento Nepali Community website.
 
 
