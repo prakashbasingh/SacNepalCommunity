@@ -1,7 +1,16 @@
 .App {
   text-align: center;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
+body {
+  padding: 0;
+  margin: 0;
+}
+/*  */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +44,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+/*  */
+.mainTitle{
+  color: blue;
+}
+
+.menuContent{
+  display: flex;
+  align-items: center;
+  /* border-style: solid; */
+  width: 100%;
+  height: auto;
+}
+.leftSide{
+  width:20%;
+  /* font: bold; */
+}
+.rightSide{
+ width:80%;
+ display: flex;
+/* border-style: solid; */
+justify-content: flex-end;
+justify-content: space-evenly;
+
 }
