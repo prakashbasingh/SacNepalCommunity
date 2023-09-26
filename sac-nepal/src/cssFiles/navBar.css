@@ -1,0 +1,46 @@
+/* Navbar Component CSS */
+.navbar {
+    background-image: linear-gradient(rgb(6, 119, 212), white);
+}
+.mainTitle {
+    color: white;
+}
+
+.menuContent {
+    display: flex;
+    align-items: center;
+    /* border-style: solid; */
+    width: 100%;
+    height: auto;
+}
+
+.leftSide {
+    width: 20%;
+    font: bold;
+}
+
+.rightSide {
+    width: 80%;
+    display: flex;
+    /* border-style: solid; */
+    justify-content: flex-end;
+    justify-content: space-evenly;
+
+}
+
+.rightSide a {
+    color: gray;
+    text-decoration: none;
+}
+
+/* .rightSide a:visited {
+  color: green;
+} */
+
+.rightSide a:hover {
+    color: hotpink;
+}
+
+.rightSide a:active {
+    color: blue;
+}

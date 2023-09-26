@@ -1,0 +1,45 @@
+.footer {
+    background-image: linear-gradient(white, rgb(6, 119, 212));
+    /* border: solid 1px red; */
+}
+
+.footerNav {
+    /* border: solid 1px black; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+
+.footerNav a {
+    color: gray;
+    text-decoration: none;
+}
+
+/* .rightSide a:visited {
+  color: green;
+} */
+
+.footerNav a:hover {
+    color: hotpink;
+}
+
+.footerNav a:active {
+    color: blue;
+}
+.footerContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+.footerMain{
+    /* border: solid 2px rgb(0, 174, 255); */
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
