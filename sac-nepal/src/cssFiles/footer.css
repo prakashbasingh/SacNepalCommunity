@@ -1,0 +1,30 @@
+.footer {
+    background-image: linear-gradient(white, rgb(6, 119, 212));
+}
+
+.footerNav {
+    /* border-style: solid; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+.footerNav a {
+    color: gray;
+    text-decoration: none;
+}
+
+/* .rightSide a:visited {
+  color: green;
+} */
+
+.footerNav a:hover {
+    color: hotpink;
+}
+
+.footerNav a:active {
+    color: blue;
+}
