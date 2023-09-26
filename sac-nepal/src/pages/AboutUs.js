@@ -1,9 +1,12 @@
 import React from "react";
+import "../cssFiles/aboutUs.css";
 
 function AboutUs() {
   return (
     <div className="aboutUs">
-      <h1>AboutUs</h1>
+      <div className="aboutUsContainer">
+        <h1>About Us</h1>
+      </div>
     </div>
   );
 }

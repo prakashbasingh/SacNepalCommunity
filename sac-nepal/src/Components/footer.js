@@ -12,19 +12,24 @@ function footer() {
         <a href="/membersCommittee">Members & Committee</a>
         <a href="/aboutUs">About Us</a>
       </div>
-      <div>
-        <h4>Contact SNCC</h4>
-        <p>7700 Auburn Boulevard</p>
-        <p>Citrus Heights, CA 95610</p>
-        <p>Email: sacnepal2020@gmail.com</p>
-      </div>
-      <div>
-        <h4>Keep in touch</h4>
-        <form>
-          <label for="fname">your email here</label>
-          <br></br>
-          <input type="text" id="fname" name="fname"></input>
-        </form>
+      <div className="footerContainer">
+        <div className="footerMain">
+          <div>
+            <h4>Contact SNCC</h4>
+            <p>7700 Auburn Boulevard</p>
+            <p>Citrus Heights, CA 95610</p>
+            <p>Email: sacnepal2020@gmail.com</p>
+          </div>
+          <div>
+            <h4>Keep in touch</h4>
+            <form>
+              <label for="fname">your email here</label>
+              <br></br>
+              <input type="text" id="fname" name="fname"></input>
+              <button>Submit</button>
+            </form>
+          </div>
+        </div>
       </div>
     </div>
   );

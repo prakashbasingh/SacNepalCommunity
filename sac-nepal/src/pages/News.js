@@ -1,9 +1,12 @@
 import React from "react";
+import "../cssFiles/news.css";
 
 function News() {
   return (
     <div className="news">
-      <h1>News</h1>
+      <div className="newsContainer">
+        <h1>News</h1>
+      </div>
     </div>
   );
 }
