@@ -1,6 +1,7 @@
 import React from "react";
 import "../cssFiles/navBar.css";
 import Logo from "../assets/logo.png";
+// import SacNepalPic from "../assets/sacNepalBanner.png";
 
 function navbar() {
   return (
@@ -12,8 +13,15 @@ function navbar() {
       </div>
       <div className="menuContent">
         <div className="leftSide">
-          <img src={Logo} alt="sacLogo" width="150" height="150" />
+          <img
+            src={Logo}
+            alt="sacLogo"
+            width="150"
+            height="150"
+            className="tiltingLogo"
+          />
         </div>
+
         <div className="rightSide">
           <a href="/"> Home </a>
           <a href="/events">Events</a>

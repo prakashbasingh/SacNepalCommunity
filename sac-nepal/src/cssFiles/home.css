@@ -19,3 +19,25 @@
     width: 20%;
     border: solid 1px red;
 }
+
+/* Inside main Container */
+.home1{
+ height:25%;
+ width:100%;
+ border: solid 1px lime;   
+}
+.home2 {
+    height: 25%;
+    width: 100%;
+    border: solid 1px lime;
+}
+.home3 {
+    height: 25%;
+    width: 100%;
+    border: solid 1px lime;
+}
+.home4 {
+    height: 25%;
+    width: 100%;
+    border: solid 1px lime;
+}

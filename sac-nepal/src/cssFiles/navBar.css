@@ -1,9 +1,12 @@
 /* Navbar Component CSS */
 .navbar {
-    background-image: linear-gradient(rgb(6, 119, 212), white);
+    /* height: 20%; */
+    /* background-image: linear-gradient(rgb(6, 119, 212), white); */
+    background-image: url(../assets/sacNepalBanner.png);
+    background-size:cover;
 }
 .mainTitle {
-    color: white;
+    color: blue;
 }
 
 .menuContent {
@@ -25,12 +28,20 @@
     /* border-style: solid; */
     justify-content: flex-end;
     justify-content: space-evenly;
-
+    background-color:rgb(28, 186, 235, 0.25);
+    border-top-left-radius: 100px 200px;
+        border-bottom-left-radius: 100px 200px;
+        box-shadow: 20px 20px 50px 15px rgb(128, 128, 128);
 }
 
 .rightSide a {
-    color: gray;
+    color: rgb(0, 0, 0);
     text-decoration: none;
+    font-weight: bold;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    
 }
 
 /* .rightSide a:visited {
@@ -44,3 +55,4 @@
 .rightSide a:active {
     color: blue;
 }
+
