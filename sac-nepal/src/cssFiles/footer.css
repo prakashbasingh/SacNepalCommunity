@@ -1,19 +1,23 @@
 .footer {
     /* height: 20%; */
     background-image: linear-gradient(white, rgb(6, 119, 212));
-    /* border: solid 1px red; */
+    width: 100vw;
+    border: solid 2px rgb(255, 0, 242);
+    padding-top: 2%;
+    padding-bottom: 2%;
+        display: flex;
+        justify-content: center;
+
 }
 
 .footerNav {
     /* border: solid 1px black; */
-    width: 100%;
+    width: 25%;
     height: auto;
     display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-    padding-top: 1%;
-    padding-bottom: 1%;
-
+    flex-flow: column;
+    align-items: flex-start;
+    padding-left: 2%;
 }
 
 .footerNav a {
@@ -32,15 +36,10 @@
 .footerNav a:active {
     color: blue;
 }
-.footerContainer{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-   
-}
+
 .footerMain{
     /* border: solid 2px rgb(0, 174, 255); */
-    width: 60%;
+    width: 75%;
     display: flex;
     justify-content: space-around;
 }
