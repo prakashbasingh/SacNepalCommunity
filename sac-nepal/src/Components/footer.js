@@ -3,6 +3,7 @@ import "../cssFiles/footer.css";
 
 function footer() {
   return (
+    /*TEST*/
     <div className="footer">
       <div className="footerNav">
         <a href="/"> Home </a>
